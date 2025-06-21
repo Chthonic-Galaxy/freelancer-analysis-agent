@@ -44,6 +44,7 @@ Remember to finalize your answer in Russian and make it clear and easy to unders
         agent_executor_kwargs={"handle_parsing_errors": True},
         allow_dangerous_code=True,
         prefix=AGENT_PREFIX,
+        include_df_in_prompt=None,
         suffix=AGENT_SUFFIX
     )
     print("Агент успешно создан.")
